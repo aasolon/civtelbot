@@ -6,8 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
 
+    // https://civtelbot.herokuapp.com/process-game-info
     @RequestMapping("/process-game-info")
     public String processGameInfo() {
-        return "asd";
+        return "asd 1";
     }
 }
